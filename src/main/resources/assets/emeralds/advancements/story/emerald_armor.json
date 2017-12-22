@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "emeralds:emerald_chestplate"
+    },
+    "title": "Jolly Green Giant",
+    "description": "Green armor is in season"
+  },
+  "parent": "minecraft:story/shiny_gear",
+  "criteria": {
+    "emerald_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "emeralds:emerald_helmet"
+          },
+          {
+            "item": "emeralds:emerald_chestplate"
+          },
+          {
+            "item": "emeralds:emerald_leggings"
+          },
+          {
+            "item": "emeralds:emerald_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "emerald_armor"
+    ]
+  ]
+}

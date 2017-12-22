@@ -1,0 +1,9 @@
+[{
+  "modid": "emeralds",
+  "name": "Emeralds",
+  "description": "Emerald stuffs",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["BillyGalbreath"],
+  "logoFile": "assets/logo.png"
+}]
